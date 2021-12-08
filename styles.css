@@ -1,0 +1,169 @@
+:root {
+  /* цвет текста */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  /* цвет фона */
+  --primary-background: #e5e5e5;
+  --sekondary-background: #2f303a;
+  --additional-background: #f5f4fa;
+}
+body {
+  background: var(--primary-background);
+  font-family: Roboto;
+}
+/* Логотип */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #212121;
+}
+/* Навигация */
+.header ul {
+  list-style: none;
+}
+.header li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.header-contacts li a {
+  color: #757575;
+}
+
+.nav-main :hover {
+  color: #2196f3;
+}
+.header-contacts :hover {
+  color: #2196f3;
+}
+.nav-main :focus {
+  color: #2196f3;
+}
+.header-contacts :focus {
+  color: #2196f3;
+}
+.header .studio {
+  color: #2196f3;
+}
+
+/* Секция герой */
+.hero-section {
+  background: var(--sekondary-background);
+}
+.hero-text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  background: #2196f3;
+}
+.hero-button-tekst {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+}
+/* секция 2 */
+.section-description ul {
+  list-style: none;
+}
+.text-title-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+/* секция 3 */
+.our-work-section ul {
+  list-style: none;
+}
+/* секция 4 */
+.text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+.secondary-text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.section-command ul {
+  list-style: none;
+}
+.section-command {
+  background: var(--additional-background);
+}
+/* подвал */
+.footer {
+  background: var(--sekondary-background);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-White {
+  color: #ffffff;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.actual-address {
+  color: #ffffff;
+}
+.contacts {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}

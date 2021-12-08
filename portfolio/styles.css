@@ -1,0 +1,137 @@
+:root {
+  /* цвет текста */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  /* цвет фона */
+  --primary-background: #e5e5e5;
+  --sekondary-background: #2f303a;
+  --additional-background: #f5f4fa;
+}
+body {
+  font-family: Roboto;
+  background: var(--primary-background);
+}
+/* Логотип */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #212121;
+}
+/* Навигация */
+.header ul {
+  list-style: none;
+}
+.header li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.header-contacts li a {
+  color: #757575;
+}
+.nav-main :hover {
+  color: #2196f3;
+}
+.header-contacts :hover {
+  color: #2196f3;
+}
+.nav-main :focus {
+  color: #2196f3;
+}
+.header-contacts :focus {
+  color: #2196f3;
+}
+.header .portfolio {
+  color: #2196f3;
+}
+
+/* кнопки */
+.list-of-buttons li button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+.maine-section-portfolio li {
+  list-style: none;
+}
+.list-of-buttons button:hover {
+  background: #2196f3;
+}
+.list-of-buttons button:focus {
+  background: #2196f3;
+}
+
+.list-of-buttons li button:hover,
+:focus {
+  color: #ffffff;
+}
+
+/* main section */
+.maine-portfolio {
+  list-style: none;
+}
+.maine-portfolio a {
+  text-decoration: none;
+}
+
+.title-text-portfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.link-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+/* подвал */
+.footer {
+  background: var(--sekondary-background);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-White {
+  color: #ffffff;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.actual-address {
+  color: #ffffff;
+}
+.contacts {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
