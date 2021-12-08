@@ -8,10 +8,64 @@
   --sekondary-background: #2f303a;
   --additional-background: #f5f4fa;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
+  width: 1600px;
   background: var(--primary-background);
   font-family: Roboto;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* header */
+.header {
+  width: 1600px;
+}
+.header > .logo-conteiner,
+.nav-main,
+.header-contacts {
+  display: inline-block;
+}
+.nav-main li {
+  display: inline-block;
+}
+.header-contacts li {
+  display: inline-block;
+}
+.logo-conteiner {
+  width: 145px;
+  margin-left: 215px;
+}
+.nav-main {
+  margin-left: 93px;
+}
+.nav-main li:not(first-child) {
+  margin-left: 50px;
+}
+.header-contacts {
+  margin-left: 331px;
+}
+
+.header-contacts li:last-child {
+  margin-left: 50px;
+}
+
 /* Логотип */
 .logo {
   font-family: Raleway;
