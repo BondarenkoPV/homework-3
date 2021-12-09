@@ -8,11 +8,70 @@
   --sekondary-background: #2f303a;
   --additional-background: #f5f4fa;
 }
-body {
-  font-family: Roboto;
-  background: var(--primary-background);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+body {
+  background: var(--primary-background);
+  font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* header */
+.header {
+  padding: 0%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 1600px;
+}
+.nav-main-conteiner {
+  margin-left: 93px;
+}
+
+.nav-main {
+  display: flex;
+  padding: 0%;
+  margin: 0;
+}
+
+.link-header + .link-header {
+  margin-left: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  padding: 0%;
+  margin: 0;
+}
+.header-contacts-li + .header-contacts-li {
+  margin-left: 50px;
+}
+.header-contacts-conteiner {
+  margin-left: auto;
+  margin-right: 215px;
+}
+
 /* Логотип */
+.logo-conteiner {
+  margin-left: 215px;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;

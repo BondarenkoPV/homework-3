@@ -14,7 +14,6 @@
   box-sizing: border-box;
 }
 body {
-  width: 1600px;
   background: var(--primary-background);
   font-family: Roboto;
 }
@@ -35,6 +34,7 @@ img {
 }
 /* header */
 .header {
+  border: 5px solid coral;
   width: 1600px;
 }
 .header > .logo-conteiner,
@@ -47,10 +47,13 @@ img {
 }
 .header-contacts li {
   display: inline-block;
+  border: 5px solid coral;
 }
 .logo-conteiner {
   width: 145px;
   margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .nav-main {
   margin-left: 93px;
@@ -64,6 +67,11 @@ img {
 
 .header-contacts li:last-child {
   margin-left: 50px;
+}
+.nav-main,
+.header-contacts {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /* Логотип */
@@ -116,6 +124,8 @@ img {
 
 /* Секция герой */
 .hero-section {
+  border: 5px solid rgb(50, 196, 106);
+
   background: var(--sekondary-background);
 }
 .hero-text-title {
