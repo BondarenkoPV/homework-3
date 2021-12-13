@@ -39,40 +39,25 @@ img {
 
   width: 1600px;
   height: 80px;
-}
-.nav-main-conteiner {
-  margin-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  width: 49px;
-  height: 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 
+.logo-conteiner {
+  width: 145px;
+  margin-left: 215px;
+}
 .nav-main {
   display: flex;
-}
-
-.link-header + .link-header {
-  margin-left: 50px;
+  margin-left: 93px;
 }
 
 .header-contacts {
   display: flex;
-}
-.header-contacts-li + .header-contacts-li {
-  margin-left: 50px;
-}
-.header-contacts-conteiner {
-  margin-left: auto;
-  margin-right: 215px;
+  margin-left: 331px;
 }
 
 /* Логотип */
-.logo-conteiner {
-  margin-left: 215px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -80,9 +65,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  display: block;
-  width: 145px;
-  height: 31px;
 }
 .logo-blue {
   color: #2196f3;
@@ -103,9 +85,23 @@ img {
   line-height: 1.14;
   color: #212121;
 }
+
+.link-header + .link-header {
+  margin-left: 50px;
+}
+
+.header-contacts-li + .header-contacts-li {
+  margin-left: 50px;
+}
+.header-contacts-conteiner {
+  margin-left: auto;
+  margin-right: 215px;
+}
+
 .header-contacts li a {
   color: #757575;
 }
+
 .nav-main :hover {
   color: #2196f3;
 }
@@ -121,6 +117,7 @@ img {
 .header .portfolio {
   color: #2196f3;
 }
+
 /* main section  */
 .main {
   width: 1600px;

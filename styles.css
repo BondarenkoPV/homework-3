@@ -32,46 +32,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* header */
 .header {
-  border: 5px solid coral;
+  display: flex;
+  align-items: center;
+
   width: 1600px;
+  height: 80px;
+  background: #ffffff;
 }
-.header > .logo-conteiner,
-.nav-main,
-.header-contacts {
-  display: inline-block;
-}
-.nav-main li {
-  display: inline-block;
-}
-.header-contacts li {
-  display: inline-block;
-  border: 5px solid coral;
-}
+
 .logo-conteiner {
   width: 145px;
   margin-left: 215px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .nav-main {
+  display: flex;
   margin-left: 93px;
 }
-.nav-main li:not(first-child) {
-  margin-left: 50px;
-}
-.header-contacts {
-  margin-left: 331px;
-}
 
-.header-contacts li:last-child {
-  margin-left: 50px;
-}
-.nav-main,
 .header-contacts {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  display: flex;
+  margin-left: 331px;
 }
 
 /* Логотип */
@@ -102,6 +85,19 @@ img {
   line-height: 1.14;
   color: #212121;
 }
+
+.link-header + .link-header {
+  margin-left: 50px;
+}
+
+.header-contacts-li + .header-contacts-li {
+  margin-left: 50px;
+}
+.header-contacts-conteiner {
+  margin-left: auto;
+  margin-right: 215px;
+}
+
 .header-contacts li a {
   color: #757575;
 }
@@ -124,9 +120,9 @@ img {
 
 /* Секция герой */
 .hero-section {
-  border: 5px solid rgb(50, 196, 106);
-
   background: var(--sekondary-background);
+  width: 1600px;
+  height: 600px;
 }
 .hero-text-title {
   font-family: Roboto;
@@ -136,10 +132,17 @@ img {
   line-height: 1.36;
   text-align: center;
   color: #ffffff;
+  width: 696px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button {
+  margin-left: 700px;
+  margin-top: 30px;
   background: #2196f3;
 }
+
 .hero-button-tekst {
   font-family: Roboto;
   font-style: normal;
@@ -149,9 +152,25 @@ img {
   color: #ffffff;
 }
 /* секция 2 */
+.section-description {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section-description ul {
   list-style: none;
 }
+.ul-section-description {
+  margin-left: 215px;
+}
+
+.ul-section-description {
+  display: flex;
+}
+
+.li-section-description + .li-section-description {
+  margin-left: 30px;
+}
+
 .text-title-description {
   font-family: Roboto;
   font-style: normal;
@@ -172,7 +191,37 @@ img {
 .our-work-section ul {
   list-style: none;
 }
+.ul-our-work-section {
+  display: flex;
+  margin-left: 215px;
+}
+.li-our-work-section + .li-our-work-section {
+  margin-left: 30px;
+}
+.ul-our-work-section {
+  margin-bottom: 94px;
+}
+
 /* секция 4 */
+.section-command {
+  width: 1600px;
+  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ul-section-command {
+  display: flex;
+  margin-left: 215px;
+}
+.li-section-command + .li-section-command {
+  margin-left: 30px;
+}
+.li-section-command {
+  width: 270px;
+  height: 368px;
+}
+
 .text-title {
   font-family: Roboto;
   font-style: normal;
@@ -180,6 +229,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: #212121;
+  margin-top: 30px;
+  text-align: center;
 }
 .position {
   font-family: Roboto;
@@ -188,6 +239,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
+  margin-top: 10px;
+  text-align: center;
 }
 .secondary-text-title {
   font-family: Roboto;
@@ -196,6 +249,9 @@ img {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 .section-command ul {
   list-style: none;
@@ -206,6 +262,11 @@ img {
 /* подвал */
 .footer {
   background: var(--sekondary-background);
+  width: 1600px;
+  height: 252px;
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo {
   font-family: Raleway;
@@ -213,6 +274,10 @@ img {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  display: block;
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
 }
 .logo-White {
   color: #ffffff;
@@ -223,11 +288,17 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
+  display: inline;
+  margin-bottom: 9px;
 }
 .actual-address {
+  display: inline;
   color: #ffffff;
+  margin-bottom: 9px;
 }
 .contacts {
+  display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
