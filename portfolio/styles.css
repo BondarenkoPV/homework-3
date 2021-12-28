@@ -34,11 +34,17 @@ img {
 }
 /* header */
 .header {
+  background: #ffffff;
+}
+.header-conteiner {
   display: flex;
   align-items: center;
-  padding-right: 215px;
-  padding-left: 215px;
-  background: #ffffff;
+  width: 1200px;
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 215px;
+  margin-right: auto;
 }
 
 .logo-conteiner {
@@ -51,8 +57,9 @@ img {
 
 .header-contacts {
   display: flex;
-  flex-wrap: nowrap;
-  margin-left: 331px;
+}
+.header-contacts-cont {
+  margin-left: auto;
 }
 
 /* Логотип */
@@ -90,17 +97,25 @@ img {
   margin-left: 50px;
 }
 .link-header {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header-contacts-li + .header-contacts-li {
   margin-left: 50px;
 }
+.header-contacts-li {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
 .header-contacts {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts li a {
@@ -119,7 +134,7 @@ img {
 .header-contacts :focus {
   color: #2196f3;
 }
-.header .studio {
+.header .portfolio {
   color: #2196f3;
 }
 
@@ -128,11 +143,12 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.maine-section-portfolio {
-  width: 1170px;
+.main-conteiner {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+
 /* кнопки */
 .list-of-buttons {
   display: flex;
@@ -144,6 +160,12 @@ img {
 .button-li + .button-li {
   margin-left: 8px;
 }
+.button-li {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
 .list-of-buttons li button {
   font-family: Roboto;
   font-style: normal;
@@ -186,15 +208,18 @@ img {
 .li-maine-portfolio {
   display: block;
   width: 370px;
-  height: 404px;
   padding: 0px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc(100% / 3-30px);
+  flex-basis: calc(100% / 3 - 30px);
 }
+.li-maine-portfolio {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
 .title-text-portfolio {
   font-family: Roboto;
   font-style: normal;
@@ -224,15 +249,14 @@ img {
   margin-right: 24px;
 }
 /* подвал */
-
 .footer {
   background: var(--sekondary-background);
 
-  padding-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .conteiner-footer {
+  margin-left: 215px;
   margin-right: auto;
 }
 .logo {
