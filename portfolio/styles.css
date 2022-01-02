@@ -29,7 +29,8 @@ li,
 p {
   margin: 0;
 }
-ul ol {
+ul[class],
+ol[class] {
   padding: 0;
 }
 
@@ -164,6 +165,12 @@ img {
 
 .button-li + .button-li {
   margin-left: 8px;
+}
+.button-li button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .list-of-buttons li button {
